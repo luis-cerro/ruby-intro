@@ -15,3 +15,9 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+my_shopping_list=["milk", "eggs", "bacon"]
+friends_shopping_list=["beer", "cookies", "apples"]
+
+final_shopping_list=my_shopping_list+friends_shopping_list
+puts final_shopping_list.sort.uniq
